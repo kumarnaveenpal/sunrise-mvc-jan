@@ -10,8 +10,8 @@
 							<li class="{{ Request::is('/') ? 'active' : ''}}"><a href="{{ '/' }}">Home</a></li>
 							<li><a href="sermons.html">Authors</a></li>
 							<li class="{{ Request::is('ContactUs') ? 'active' : ''}}"><a href="{{ 'ContactUs' }}">Contact</a></li>
-							<li><a href="events.html">Registration</a></li>
-							<li><a href="about.html">Login</a></li>
+							<li><a href="{{ 'register' }}">Registration</a></li>
+							<li><a href="{{ 'login' }}">Login</a></li>
 						</ul>
 					</div>
 				</div>

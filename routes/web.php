@@ -20,3 +20,5 @@ Route::get('ContactUs','GuestController@contact')->name('contact');
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+Route::get('GetAllAuthors','GuestController@getAuthors');

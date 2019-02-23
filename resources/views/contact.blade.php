@@ -1,14 +1,9 @@
 @extends('layouts.index')
 @section('content')
-
     <div class="container-wrap">
         <div id="fh5co-news" class="fh5co-light-grey">
-            
-
-
-
-    <!--Section heading-->
-    <h2 class="h1-responsive font-weight-bold text-center my-4">Contact us</h2>
+        <!--Section heading-->
+            <h2 class="h1-responsive font-weight-bold text-center my-4">Contact us</h2>
     <!--Section description-->
     <div class="row">
         <!--Grid column-->
